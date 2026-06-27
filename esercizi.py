@@ -59,7 +59,7 @@ database_didattico = {
     }
 }
 
-st.title("🎸 Modafferi Accademy Trainer - Ufficiale")
+st.title("🎸 Vincenzo Modafferi Accademy Trainer - Ufficiale")
 
 percorso = st.selectbox("Livello Accademico:", list(database_didattico.keys()))
 durata_totale = st.select_slider("Durata sessione (minuti):", options=[15, 30, 45, 60, 90, 120])
